@@ -4,37 +4,38 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="static/projektit.css" />
     <link rel="stylesheet" href="static/index.css" />
-    <title>PROJEKTIT</title>
+    <title>Projektit</title>
     <script>
       //Sivupalkki
       function openNav() {
-			  document.getElementById("mySidepanel").style.width = "250px";
+			  document.getElementById("sidepanel").style.width = "250px"
 			}
 			
 			function closeNav() {
-			  document.getElementById("mySidepanel").style.width = "0";
+			  document.getElementById("sidepanel").style.width = "0"
 			}
       //Kokosivupalkit
       function demo(pageName,elmnt,color) {
          var i, tabcontent, tablinks;
-         tabcontent = document.getElementsByClassName("tabcontent");
+         tabcontent = document.getElementsByClassName("tabcontent")
          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+            tabcontent[i].style.display = "none"
          }
-         tablinks = document.getElementsByClassName("tablink");
+         tablinks = document.getElementsByClassName("tablink")
          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].style.backgroundColor = "";
+            tablinks[i].style.backgroundColor = ""
          }
-         document.getElementById(pageName).style.display = "block";
-         elmnt.style.backgroundColor = color;
+         document.getElementById(pageName).style.display = "block"
+         elmnt.style.backgroundColor = color
       }
     </script>
   </head>
 
   <body>
     <!--Sivupalkki-->
-    <nav id="mySidepanel" class="sidepanel">
+    <nav id="sidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="http://localhost:5000/">ETUSIVU</a>
 			<a href="http://localhost:5000/projektit">PROJEKTIT</a>
 			<a href="http://localhost:5000/ansioluettelo">ANSIOLUETTELO</a>
 		</nav>

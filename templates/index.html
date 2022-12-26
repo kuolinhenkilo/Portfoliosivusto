@@ -1,34 +1,34 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Flask app</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/static/index.css" />
 		<script>
+			// Sivupalkin avaus ja sulku
 			function openNav() {
-			  document.getElementById("mySidepanel").style.width = "250px";
+			  document.getElementById("sidepanel").style.width = "250px"
 			}
 			
 			function closeNav() {
-			  document.getElementById("mySidepanel").style.width = "0";
+			  document.getElementById("sidepanel").style.width = "0"
 			}
 
-			// When the user scrolls the page, execute myFunction
-			window.onscroll = function() {myFunction()};
+			// Kun scrollataan, tahmaa
+			window.onscroll = function() {makeSticky()}
 
-			// Get the navbar
-			var mySidepanel = document.getElementById("mySidepanel");
+			// Hae sivupalkki
+			let sidepanel = document.getElementById("sidepanel")
 
-			// Get the offset position of the navbar
-			var sticky = mySidepanel.offsetTop;
+			// Hae sivupalkin suhteellinen positio
+			let sticky = sidepanel.offsetTop
 
-			// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-			function myFunction() {
+			// Tee sivupalkista tahmainen scrollatessa ja päinvastoin
+			function makeSticky() {
 			  if (window.pageYOffset >= sticky) {
-			    mySidepanel.classList.add("sticky")
+			    sidepanel.classList.add("sticky")
 			  } else {
-			    mySidepanel.classList.remove("sticky");
+			    sidepanel.classList.remove("sticky")
 			  }
 			} 
 		</script>
@@ -36,20 +36,13 @@
 
 	<body>
 		<!-- Sivupalkki -->
-		<nav id="mySidepanel" class="sidepanel">
+		<nav id="sidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="http://localhost:5000/projektit">PROJEKTIT</a>
 			<a href="http://localhost:5000/ansioluettelo">ANSIOLUETTELO</a>
 		</nav>
 		  
 		<button class="openbtn" onclick="openNav()">&#9776;</button>
-
-		<section id="one" class="container">
-			<div>
-				<h1>Flask Web App</h1>
-				<span>Big fucking yheö</span>
-			</div>
-		</section>
 
 	</body>
 </html>
