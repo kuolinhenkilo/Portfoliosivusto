@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/projektit.css" />
+    <link rel="stylesheet" href="static/index.css" />
+    <title>PROJEKTIT</title>
+    <script>
+      //Sivupalkki
+      function openNav() {
+			  document.getElementById("mySidepanel").style.width = "250px";
+			}
+			
+			function closeNav() {
+			  document.getElementById("mySidepanel").style.width = "0";
+			}
+      //Kokosivupalkit
+      function demo(pageName,elmnt,color) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablink");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+         }
+         document.getElementById(pageName).style.display = "block";
+         elmnt.style.backgroundColor = color;
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Sivupalkki-->
+    <nav id="mySidepanel" class="sidepanel">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="http://localhost:5000/projektit">PROJEKTIT</a>
+			<a href="http://localhost:5000/ansioluettelo">ANSIOLUETTELO</a>
+		</nav>
+		  
+		<button class="openbtn" onclick="openNav()">&#9776;</button>
+
+    <!--Välilehdet-->
+    <div>
+      <button class="tablink" onclick="demo('Boomerbotti', this, 'blue')">Boomerbotti</button>
+      <button class="tablink" onclick="demo('Roll-a-dice', this, 'gray')">Roll-a-dice</button>
+    </div>
+
+    <div id="Boomerbotti" class="tabcontent">
+      <p>Tässä on boomerbotti</p>
+    </div>
+    <div id="Roll-a-dice" class="tabcontent">
+      <p>Tässä on noppapeli</p>
+    </div>
+
+  </body>
+</html>

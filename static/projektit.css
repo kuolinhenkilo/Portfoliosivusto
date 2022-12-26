@@ -1,0 +1,28 @@
+* {box-sizing: border-box}
+body, html {
+   height: 100%;
+   margin: 0;
+}
+.tablink {
+   background-color: #555;
+   color: white;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 10px 14px;
+   font-size: 15px;
+   width: 33.33%;
+}
+.tablink:hover {
+   background-color: black;
+}
+.tabcontent {
+   color: white;
+   display: none;
+   padding: 100px 20px;
+   height: 100%;
+}
+
+#Boomerbotti {background-color: blue;}
+#Roll-a-dice {background-color: gray;}
