@@ -3,15 +3,16 @@
 
 ## Sisältö
 
-1. [Kuvaus](#kuvaus)
+1. [Esittely](#esittely)
 2. [Teknologiat](#teknologiat)
 
-## Kuvaus
+## Esittely
 
-Tämä on ensimmäinen nettisivuprojektini. Sivuston tarkoituksena on toimia kompaktina henkilö- ja projektiesittelynä IT-alan rekrytoijille.
+Tämä on ensimmäinen nettisivuprojektini, sekä kolmas projektini Helsingin yliopiston oppimateriaalin ulkopuolella. Sivuston tarkoituksena on toimia kompaktina henkilö- ja projektiesittelynä IT-alan rekrytoijille.
 
 Tavoitteena projektissa oli
   - valloittaa uusia alueita, kieliä ja konsepteja, pääosin frontendin saralla
+  - integroida versionhallinta osaksi omaa ohjelmointiprosessia ja -rutiinia
   - laajentaa kokonaisvaltaista ymmärrystä ohjelmoinnista
   - tarjota rekrytoijalle tarkasteltavaksi esteettinen, lähestyttävä, sekä mieleenpainuva kokonaisuus
 
