@@ -6,15 +6,7 @@
     <link rel="stylesheet" href="static/index.css" />
     <title>Projektit</title>
     <script>
-      //Sivupalkki
-      function openNav() {
-			  document.getElementById("sidepanel").style.width = "250px"
-			}
-			
-			function closeNav() {
-			  document.getElementById("sidepanel").style.width = "0"
-			}
-      //Kokosivupalkit
+      //Välilehdet
       function demo(pageName,elmnt,color) {
          var i, tabcontent, tablinks;
          tabcontent = document.getElementsByClassName("tabcontent")
@@ -32,20 +24,18 @@
   </head>
 
   <body>
-    <!--Sivupalkki-->
-    <nav id="sidepanel" class="sidepanel">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!--Navigaatio-->
+    <nav class="topnav">
       <a href="http://localhost:5000/">ETUSIVU</a>
-			<a href="http://localhost:5000/projektit">PROJEKTIT</a>
+			<a class="active" href="http://localhost:5000/projektit">PROJEKTIT</a>
 			<a href="http://localhost:5000/ansioluettelo">ANSIOLUETTELO</a>
 		</nav>
-		  
-		<button class="openbtn" onclick="openNav()">&#9776;</button>
 
     <!--Välilehdet-->
     <div>
       <button class="tablink" onclick="demo('Boomerbotti', this, 'blue')">Boomerbotti</button>
       <button class="tablink" onclick="demo('Roll-a-dice', this, 'gray')">Roll-a-dice</button>
+      <button class="tablink" onclick="demo('Nettisivusto', this, 'teal')">Nettisivusto</button>
     </div>
 
     <div id="Boomerbotti" class="tabcontent">
@@ -53,6 +43,9 @@
     </div>
     <div id="Roll-a-dice" class="tabcontent">
       <p>Tässä on noppapeli</p>
+    </div>
+    <div id="Nettisivusto" class="tabcontent">
+      <p>Tässä on nettisivusto</p>
     </div>
 
   </body>

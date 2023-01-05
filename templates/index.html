@@ -1,48 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Portfolio</title>
+		<title>Etusivu</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="/static/index.css" />
-		<script>
-			// Sivupalkin avaus ja sulku
-			function openNav() {
-			  document.getElementById("sidepanel").style.width = "250px"
-			}
-			
-			function closeNav() {
-			  document.getElementById("sidepanel").style.width = "0"
-			}
-
-			// Kun scrollataan, tahmaa
-			window.onscroll = function() {makeSticky()}
-
-			// Hae sivupalkki
-			let sidepanel = document.getElementById("sidepanel")
-
-			// Hae sivupalkin suhteellinen positio
-			let sticky = sidepanel.offsetTop
-
-			// Tee sivupalkista tahmainen scrollatessa ja päinvastoin
-			function makeSticky() {
-			  if (window.pageYOffset >= sticky) {
-			    sidepanel.classList.add("sticky")
-			  } else {
-			    sidepanel.classList.remove("sticky")
-			  }
-			} 
-		</script>
 	</head>
 
 	<body>
-		<!-- Sivupalkki -->
-		<nav id="sidepanel" class="sidepanel">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<!--Navigaatio-->
+		<nav class="topnav">
+			<a class="active" href="http://localhost:5000/">ETUSIVU</a>
 			<a href="http://localhost:5000/projektit">PROJEKTIT</a>
 			<a href="http://localhost:5000/ansioluettelo">ANSIOLUETTELO</a>
 		</nav>
-		  
-		<button class="openbtn" onclick="openNav()">&#9776;</button>
 
+		<p>Tässä on esittelytekstiä.</p>
 	</body>
 </html>
