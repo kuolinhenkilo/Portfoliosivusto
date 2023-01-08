@@ -1,6 +1,19 @@
 body, html {
   height: 100%;
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.esittely {
+  margin: 20px;
+  text-align: center;
 }
 
 .topnav {
@@ -15,12 +28,13 @@ body, html {
 .topnav a {
   display: flex;
   color: rgb(185, 185, 185);
-  width: 33%;
+  width: 33.33%;
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  font-size: 1.6em; /* laita em */
-  padding: 2rem; /* laita rem */
+  font-size: 1.6em;
+  padding: 2rem;
+  cursor: default;
 }
 
 .topnav a:hover {

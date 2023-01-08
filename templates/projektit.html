@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="static/projektit.css" />
     <link rel="stylesheet" href="static/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand" />
     <title>Projektit</title>
     <script>
       //Välilehdet
@@ -32,10 +33,10 @@
 		</nav>
 
     <!--Välilehdet-->
-    <div>
-      <button class="tablink" onclick="demo('Boomerbotti', this, 'blue')">Boomerbotti</button>
-      <button class="tablink" onclick="demo('Roll-a-dice', this, 'gray')">Roll-a-dice</button>
-      <button class="tablink" onclick="demo('Nettisivusto', this, 'teal')">Nettisivusto</button>
+    <div class="lehdet">
+      <button id="boomer" class="tablink" onclick="demo('Boomerbotti', this, '#626edb')">Boomerbotti</button>
+      <button id="noppa" class="tablink" onclick="demo('Roll-a-dice', this, 'pink')">Roll-a-dice</button>
+      <button id="netti" class="tablink" onclick="demo('Nettisivusto', this, 'mintcream')">Nettisivusto</button>
     </div>
 
     <div id="Boomerbotti" class="tabcontent">
@@ -47,6 +48,5 @@
     <div id="Nettisivusto" class="tabcontent">
       <p>Tässä on nettisivusto</p>
     </div>
-
   </body>
 </html>
