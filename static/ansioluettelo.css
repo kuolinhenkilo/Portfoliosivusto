@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c6e6d6;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+}
+
+#kuva1 {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+#kuva2 {
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
