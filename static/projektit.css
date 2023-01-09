@@ -1,7 +1,7 @@
 .lehdet {
    display: flex;
    align-items: center;
-   margin-top: 90px;
+   margin-top: 60px;
 }
 
 .tablink {
@@ -19,7 +19,12 @@
 
 #boomer {color: #626edb;}
 #noppa {color: pink;}
-#netti {color: mintcream;}
+#netti {color: rgb(190, 253, 222);}
+
+#Boomerbotti {background-color: #626edb;}
+#Roll-a-dice {background-color: pink;}
+#Nettisivusto {background-color: rgb(190, 253, 222);}
+
 
 .tablink:hover {
    cursor: pointer;
@@ -36,17 +41,13 @@
 }
 
 #netti:hover {
-   background-color: mintcream;
+   background-color: rgb(190, 253, 222);
    color: white;
 }
 
 .tabcontent {
    color: black;
-   display: none;
+   display: flex;
    padding: 100px 20px;
    height: 100%;
 }
-
-#Boomerbotti {background-color: #626edb;}
-#Roll-a-dice {background-color: pink;}
-#Nettisivusto {background-color: mintcream;}
