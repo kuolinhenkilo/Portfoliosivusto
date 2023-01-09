@@ -1,7 +1,7 @@
 .lehdet {
    display: flex;
    align-items: center;
-   margin-top: 60px;
+   margin-top: 90px;
 }
 
 .tablink {
@@ -25,7 +25,6 @@
 #Roll-a-dice {background-color: pink;}
 #Nettisivusto {background-color: rgb(190, 253, 222);}
 
-
 .tablink:hover {
    cursor: pointer;
 }
@@ -47,7 +46,7 @@
 
 .tabcontent {
    color: black;
-   display: flex;
+   display: none;
    padding: 100px 20px;
    height: 100%;
 }
