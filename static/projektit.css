@@ -9,7 +9,7 @@
    float: left;
    border: none;
    outline: none;
-   cursor: pointer;
+   cursor: default;
    padding: 1em;
    font-size: 1rem;
    width: 33.33%;
@@ -24,10 +24,6 @@
 #Boomerbotti {background-color: #626edb;}
 #Roll-a-dice {background-color: pink;}
 #Nettisivusto {background-color: rgb(190, 253, 222);}
-
-.tablink:hover {
-   cursor: pointer;
-}
 
 #boomer:hover {
    background-color: #626edb;
