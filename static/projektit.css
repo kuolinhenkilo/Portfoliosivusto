@@ -48,17 +48,17 @@
    font-size: 1.1rem;
 }
 
-.container {
+.pcontainer {
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
    text-align: left;
 }
 
-.header {
+.pheader {
    margin: 4em 0em;
 }
 
-.content {
+.pcontent {
    margin: 1em 0em;
 }
