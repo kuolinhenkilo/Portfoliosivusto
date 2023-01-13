@@ -55,6 +55,10 @@
    text-align: left;
 }
 
+.header {
+   margin: 4em 0em;
+}
+
 .content {
    margin: 1em 0em;
 }

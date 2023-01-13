@@ -47,3 +47,19 @@ main {
   background-color: white;
   color: #a1ddc7;
 }
+
+.icontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.iheader {
+  margin: 4rem 0rem;
+}
+
+.icontent {
+  margin: 1rem 0rem;
+}
