@@ -17,3 +17,4 @@ def projektit():
 @app.route("/ansioluettelo")
 def ansioluettelo():
     return render_template("ansioluettelo.html")
+
