@@ -8,13 +8,13 @@
 
 ## Esittely
 
-Tämä on ensimmäinen ja päivittyvä nettisivuprojektini, sekä kolmas projektini Helsingin yliopiston oppimateriaalin ulkopuolella. Sivuston tarkoituksena on toimia kompaktina henkilö- ja projektiesittelynä IT-alan rekrytoijille.
+Tämä on ensimmäinen nettisivuprojektini. Toteutin projektin itsenäisesti ilman opastusta. 
 
-Tavoitteena projektissa on
-  - valloittaa uusia alueita, kieliä ja konsepteja, pääosin frontendin saralla
+Tavoitteena projektissa oli
+  - tutustua nettidevaamisen perusasioihin ja -käsitteisiin
+  - rakentaa toimiva, mutta karkea kokonaisuus ja harjoitella muutamien erilaisten peruskomponenttien käyttöä
   - integroida versionhallinta osaksi omaa ohjelmointiprosessia ja -rutiinia
   - laajentaa kokonaisvaltaista ymmärrystä ohjelmoinnista
-  - tarjota rekrytoijalle tarkasteltavaksi esteettinen, lähestyttävä, sekä mieleenpainuva kokonaisuus
 
 ## Teknologiat
 
